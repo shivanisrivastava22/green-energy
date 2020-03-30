@@ -1,0 +1,175 @@
+/******************
+*  Color Used -   *
+*    1) #34495E   *
+*    2) #6C3483   *
+*******************/
+
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+h1,h2,h3,h4 {
+  font-family: 'Zilla Slab', serif !important;
+  font-weight: bolder;
+}
+
+p{ 
+  font-family: 'Work Sans', sans-serif;
+}
+
+li {
+  list-style-type: none; 
+  display: inline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+.outer-body{
+  margin: 1% 2%;
+}
+
+.header > li {  
+  flex-basis: 100%; 
+}
+
+.header > li > .logo {
+  height: 60px;
+  width: 60px;
+}
+
+.header > li > a{
+  color: #34495E;
+  font-weight: bolder;
+  border-bottom: 5px solid #34495E;
+  font-size: 1.2rem;
+}
+
+.header > li > a:hover{
+  color: #6C3483;
+  border-bottom: 5px solid #6C3483;
+}
+
+.divider{
+  height: 7px;
+  background-color: #34495E;
+  clear: both;
+}
+
+.bg {
+  background-size: cover; 
+  height: 50px;
+  width: 50px;
+  border-bottom: 5px solid #34495E;
+  margin-right: 10px;
+}
+
+.bg#active{
+  border-color: #6C3483;
+}
+
+.header{
+  display: inline-grid;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+.header > li {
+  margin-top: 10px;
+}
+
+.head h2{
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+  .image{
+    float: left;
+    width: 100%;
+  }
+
+  .image img{
+    width:100%;
+  }
+
+  .para{
+    float: left;
+    width: 100%;
+  }
+
+.center{
+  margin-left: auto;
+  text-align: center;
+  padding: 0;
+}
+
+.para p{
+  font-size: 1rem;
+}
+
+p {
+  color: #34495E;
+}
+
+footer ul {
+  padding: 0;
+}
+
+@media only screen and (min-width: 30rem) {
+  * {
+    font-size: 1rem;
+  }
+
+  .outer-body{
+    margin: 1% 5%;
+  }
+
+  .header {  
+    display: flex; 
+    align-items: center; 
+  }
+
+  .header > li > a{
+    border-bottom: 2px solid #34495E;
+    font-size: 1.3rem;
+  }
+
+  .header > li > .logo {
+    height: 70px;
+    width: 70px;
+  }
+
+  .head h2{
+    font-size: 2rem;
+    text-align: center;
+    color: #34495E;
+  }
+
+  .image{
+    float: left;
+    width: 25%;
+  }
+
+  .image img{
+    width:300px;
+  }
+
+  .para{
+    float: right;
+    width: 65%;
+    margin-left: 10%;
+    text-align: justify;
+    color:#34495E;
+  }
+
+  .center{
+    text-align: left;
+    padding:0;
+  }
+  
+}
